@@ -13,7 +13,7 @@ All examples can be found in files:
 
 ### Dist
 
-Distrubution (not versioned) is in [playground/dist](./playground/dist).
+Distrubution (not versioned) is in `playground/dist` directory.
 
 It is worth to take a look what `.js` code is generated from our `.ts` files.
 
