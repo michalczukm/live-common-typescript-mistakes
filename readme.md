@@ -37,3 +37,4 @@ Various resources which were shown or mentioned during webinar
   - [io-ts](https://github.com/gcanti/io-ts)
 - [TypeScript roadmap](https://github.com/Microsoft/TypeScript/wiki/Roadmap)
 - [ts-expect validate/test types](https://github.com/TypeStrong/ts-expect)
+- [pact tests](https://docs.pact.io/)
