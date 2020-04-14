@@ -3,12 +3,17 @@
     "target": "ES2015",
     "moduleResolution": "Node",
     "strict": true,
+    "noImplicitThis": false,
+    "strictPropertyInitialization": true,
     "noImplicitAny": true,
-    "preserveConstEnums": false,
+    "preserveConstEnums": true,
     "removeComments": true,
     "outDir": "dist",
     "sourceMap": true,
-    "typeRoots": ["node_modules/@types"],
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
     "lib": [
       "ES2019",
       "DOM"
