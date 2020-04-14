@@ -1,9 +1,9 @@
 {
-  "name": "1-compilation",
+  "name": "webinar-examples",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "compile": "node node_modules/typescript/bin/tsc -p tsconfig.json",
+    "compile": "tsc -p tsconfig.json",
     "start": "nodemon -e ts --exec \"node tools/clear.js && npm run compile && node dist/play.js\""
   },
   "author": "michalczukm@gmail.com",

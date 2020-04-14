@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES2015",
+    "moduleResolution": "Node",
     "strict": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
+    "preserveConstEnums": false,
     "removeComments": true,
     "outDir": "dist",
-    "sourceMap": false,
-    "preserveConstEnums": false
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types"],
+    "lib": [
+      "ES2019",
+      "DOM"
+    ]
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]
